@@ -10,11 +10,11 @@
   DEFINE('HOST', 'localhost');
   DEFINE('BD', 'consulta_2');
 
-  /*parametros para BD remota(infinityfree)
-  DEFINE('USER', 'if0_38542100'); //crea la constante USER con valor 'root'
-  DEFINE('PW', 'TOVAR2007');
-  DEFINE('HOST', 'sql200.infinityfree.com');
-  DEFINE('BD', 'if0_38542100_bd_empresa');*/
+  /* parametros para BD remota(infinityfree)
+  DEFINE('USER', 'if0_38807334'); //crea la constante USER con valor 'root'
+  DEFINE('PW', '0L1r1XEHnU');
+  DEFINE('HOST', 'sql210.infinityfree.com');
+  DEFINE('BD', 'if0_38807334_bd_empresa');*/
 
   //conexion con la BD
   $conexion = mysqli_connect(HOST , USER , PW , BD);
